@@ -1,0 +1,41 @@
+[
+    {
+        "id": "dining_hall",
+        "title": "Dining Hall",
+        "subtitle": "Room",
+        "icon": "restaurant",
+        "position": {
+            "x": 300,
+            "y": 210,
+            "layer": "0",
+            "zoomRange": [0.6, "Infinity"]
+        },
+        "content": "<p>This is the room where the food is served.</p><p>We eat here, but the cooking is done in the <a href='#kitchen'>kitchen</a>.</p>"
+    },
+    {
+        "id": "kitchen",
+        "title": "Kitchen",
+        "subtitle": "Room",
+        "icon": "soup_kitchen",
+        "position": {
+            "x": 655,
+            "y": 585,
+            "layer": "0",
+            "zoomRange": [0.6, "Infinity"]
+        },
+        "content": "<p>This is, of course, the room where the food is cooked.</p><p>When it's ready, the food is served in the <a href='#dining_hall'>dining hall</a> or, occasionally, in the <a href='#library'>library</a> on the first floor.</p>"
+    },
+    {
+        "id": "library",
+        "title": "Library",
+        "subtitle": "Room",
+        "icon": "auto_stories",
+        "position": {
+            "x": 375,
+            "y": 305,
+            "layer": "1",
+            "zoomRange": [0.6, "Infinity"]
+        },
+        "content": "<p>Lots of books are stored here.</p><p>The large space at the center of the room is sometimes used to host banquets.</p>"
+    }
+]

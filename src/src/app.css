@@ -1,0 +1,29 @@
+/* global styles
+   -------------
+   customize this file to apply styles to your entire application
+*/
+html, body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,0.12);
+    margin: 0;
+    width: 100%;
+}
+
+p {
+	margin-block-start: 0;
+}
+p:last-child {
+	margin-block-end: 0;
+}
